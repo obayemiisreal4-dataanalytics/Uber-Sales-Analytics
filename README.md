@@ -38,7 +38,8 @@ Before the commencement of the analysis, the data was examined which includes pr
 # check for the head of the dataset
 df.head()
 ```
-
+## Checks for outliers
+![](Boxplot.png)
 ## Summary Statistics
 ![Summary Statistics](summary_statistics.png)
 
