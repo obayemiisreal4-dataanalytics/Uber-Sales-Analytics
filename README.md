@@ -34,3 +34,10 @@ Before the commencement of the analysis, the data was examined which includes pr
 df.head()
 ```
 
+## Summary Statistics
+
+
+## Data Preprocessing
+The data was then preprocessed by:
+* Handling the missing values
+
