@@ -12,7 +12,7 @@ The goal of this analysis is to uncover insights in the data and make valuable r
 5. Customer ratings
 6. Distribution of vehicle types
 
-   ## Data and Library Importation
+## Data and Library Importation
 
    ```python
 # importing the necessary libraries
@@ -23,6 +23,8 @@ import seaborn as sns
 import warnings
 warnings.filteringwarnings('Ignore')
 ```
+
+
 ```
 # importing the dataset
 df = pd.read_csv("/content/ncr_ride_bookings.csv")
