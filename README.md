@@ -37,7 +37,7 @@ df.head()
 ```
 
 ## Summary Statistics
-![Summary Statistics]()
+![Summary Statistics](summary_statistics.png)
 
 
 ## Data Preprocessing
