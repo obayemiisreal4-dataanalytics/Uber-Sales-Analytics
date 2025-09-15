@@ -40,6 +40,61 @@ df.head()
 
 
 ## Data Preprocessing
-The data was then preprocessed by:
-* Handling the missing values
+The data had to be adequately prepared before moving ahead with our analysis. Therefore, i
+* Handling the missing values:
+
+```python
+# Dropping off data fields with so much missing values
+df.drop(['Cancelled Rides by Customer',
+         'Reason for cancelling by Customer',
+         'Cancelled Rides by Driver',
+         'Driver Cancellation Reason',
+         'Incomplete Rides Reason'], axis=1,inplace=True)
+```
+
+* Replacing missing values in other numerical fields with the median
+
+   ```python
+  # replacing the missing avg vtat with the median
+df['Avg VTAT'].fillna(df['Avg VTAT'].median(),inplace=True)
+
+# replacing the missing avg ctat with the median
+df['Avg CTAT'].fillna(df['Avg CTAT'].median(),inplace=True)
+
+# replacing the missing Booking value with the median
+df['Booking Value'].fillna(df['Booking Value'].median(),inplace=True)
+
+# replacing the missing Ride Distance with the median
+df['Ride Distance'].fillna(df['Ride Distance'].median(),inplace=True)
+
+# replacing the missing Driver Ratings with the median
+df['Driver Ratings'].fillna(df['Driver Ratings'].median(),inplace=True)
+
+# replacing the missing Customer Rating with the median
+df['Customer Rating'].fillna(df['Customer Rating'].median(),inplace=True)
+
+# replacing the missing avg vtat with the median
+df['Payment Method'].fillna(df['Payment Method'].mode(),inplace=True)
+
+# replacing the missing Incomplete Rides with the median
+df['Incomplete Rides'].fillna(df['Incomplete Rides'].median(),inplace=True)
+```
+* Replaced missing values in the rest of the categories fields with the mode
+
+```python
+# replacing the missing payment method with the mode
+df['Payment Method'] = df['Payment Method'].fillna(df['Payment Method'].mode()[0])
+```
+
+## Converting the Date field into a proper data type
+```python
+# converting the date column to a proper date data
+df['Date'] =pd.to_datetime(df['Date'])
+
+# extracting day from date
+df['Day'] = df['Date'].dt.day
+df['Month'] = df['Date'].dt.month
+df['Year'] = df['Date'].dt.year
+```
+
 
