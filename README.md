@@ -105,4 +105,7 @@ df['Month'] = df['Date'].dt.month
 df['Year'] = df['Date'].dt.year
 ```
 
+## Business insights
+1. What is the pattern of the customer's bookings
+
 
