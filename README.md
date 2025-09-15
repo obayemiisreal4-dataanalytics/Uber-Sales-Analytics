@@ -43,6 +43,7 @@ df.head()
 The data had to be adequately prepared before moving ahead with our analysis. Therefore, i
 * Handling the missing values:
 
+## Dropping data fields with too much missing values
 ```python
 # Dropping off data fields with so much missing values
 df.drop(['Cancelled Rides by Customer',
@@ -54,7 +55,7 @@ df.drop(['Cancelled Rides by Customer',
 
 * Replacing missing values in other numerical fields with the median
 
-   ```python
+```python
   # replacing the missing avg vtat with the median
 df['Avg VTAT'].fillna(df['Avg VTAT'].median(),inplace=True)
 
