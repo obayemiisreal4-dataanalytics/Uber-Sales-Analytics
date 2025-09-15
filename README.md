@@ -40,6 +40,8 @@ df.head()
 ```
 ## Checks for outliers
 ![](Boxplot.png)
+It can be observed that the booking value had so much outliers, but will be left since we are not building a predictive model and won't impact our analysis
+
 ## Summary Statistics
 ![Summary Statistics](summary_statistics.png)
 
