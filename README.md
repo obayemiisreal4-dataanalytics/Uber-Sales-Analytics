@@ -23,13 +23,13 @@ import seaborn as sns
 import warnings
 warnings.filteringwarnings('Ignore')
 ```
-
-
+ 
+ Importing the dataset
 ```
 # importing the dataset
 df = pd.read_csv("/content/ncr_ride_bookings.csv")
 ```
-```
+
 ## Data Exploration 
 Before the commencement of the analysis, the data was examined which includes process like checking shape of the data, th data types and the missing values. The results of the exploration revealed that the dataset has about 190,000 rows, Certain columns like 'Avg VTAT'(10500), 'Avg CTAT' (48000), 'Cancelled Rides by Customer' (141000), 'Reason for cancelling by Customer'(139500),'Cancelled Rides by Driver' (123000), 'Driver Cancellation Reason'(123000), 'Incomplete Rides'(141000) ,'Incomplete Rides Reason'(141000), 'Booking Value'(48000), 'Ride Distance'(48000), 'Driver Ratings'(57000), 'Customer Rating'(57000), 'Payment Method has missing values'(48000)
 # check for the head of the dataset
