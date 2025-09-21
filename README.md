@@ -121,7 +121,8 @@ As observed 4.5 is a good rating which has over 60,000 ratings and most ratings 
 3. What is the distribution of the driver's rating
 
 ![](dist_driver_rating.png)
-it can be observed that most ratings fall between 4.0 and 5.0 which indicates the driver's satisfaction
+
+It can be observed that most ratings fall between 4.0 and 5.0 which indicates the driver's satisfaction
 
 
 
