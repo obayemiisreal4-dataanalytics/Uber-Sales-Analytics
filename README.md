@@ -124,7 +124,13 @@ As observed 4.5 is a good rating which has over 60,000 ratings and most ratings 
 
 It can be observed that most ratings fall between 4.0 and 5.0 which indicates the driver's satisfaction
 
-4. 
+4. What is the distribution of vehicle types
+
+![](dist_vehicle_type.png)
+
+It can be observed that Auto has the highest number of bookings which is over 35,000 bookings , showing it is the most preferred and most affordable option.
+As observed Go mini(upto 30,000), Go sedan (more than 25,000) which shows it is one of the most affordable option because customers prefers affordability.
+As observed Uberxl has the least booking with less than 5,000 bookings which shows it's the most expensive and very okay for only larger groups because customers rides alone or in small groups
 
 
 
