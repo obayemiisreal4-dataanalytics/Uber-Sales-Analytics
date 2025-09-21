@@ -114,6 +114,8 @@ It can be observed that the majority of bookings were Completed, indicating a hi
 It can also be observed that a considerable number of bookings were cancelled by drivers, representing the most common reason for failure
 
 2.What is the distribution of Customer's ratings
-   ![](dist_customer_rating.png)  
+
+![](dist_customer_rating.png)  
+
 
 
