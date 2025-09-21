@@ -115,7 +115,7 @@ It can also be observed that a considerable number of bookings were cancelled by
 
 2.What is the distribution of Customer's ratings
 
-![](dist_customer_rating.png)  
+![](customer_rating.png)  
 As observed 4.5 is a good rating which has over 60,000 ratings and most ratings fall between 4.0 and 5.0 which means customers are higly satisfied
 
 3. What is the distribution of the driver's rating
