@@ -113,7 +113,7 @@ df['Year'] = df['Date'].dt.year
 It can be observed that the majority of bookings were Completed, indicating a high success rate of the booking status
 It can also be observed that a considerable number of bookings were cancelled by drivers, representing the most common reason for failure
 
-2. n
-   ![]()  
+2.What is the distribution of Customer's ratings
+   ![](dist_customer_rating.png)  
 
 
