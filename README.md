@@ -107,9 +107,13 @@ df['Year'] = df['Date'].dt.year
 
 ## Business insights
 1. What is the pattern of the customer's bookings status
+   
 ![](Dist_Booking_Status.png)
 
 It can be observed that the majority of bookings were Completed, indicating a high success rate of the booking status
 It can also be observed that a considerable number of bookings were cancelled by drivers, representing the most common reason for failure
+
+2. n
+   ![]()  
 
 
