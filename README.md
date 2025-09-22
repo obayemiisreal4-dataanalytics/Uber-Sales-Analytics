@@ -133,6 +133,7 @@ As observed Go mini(upto 30,000), Go sedan (more than 25,000) which shows it is 
 As observed Uberxl has the least booking with less than 5,000 bookings which shows it's the most expensive and very okay for only larger groups because customers rides alone or in small groups
 
 5. What can be observed
+   
 ![](Avg_VTAT_vers_CTAT.png)
 
 It can be observed that Avg CTAT is roughly stable from Avg VTAT 2.5 to 7.5 and began to rise steadily from 8.0 to 15.0
