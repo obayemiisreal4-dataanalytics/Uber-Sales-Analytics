@@ -145,6 +145,9 @@ It can also be observed that Avg CTAT drops and stay neutral when Avg VTAT is 15
 
 It can be observed that Wrong address, change of plans, Driver is not moving towards pickup location are the top reasons for cancellation by customers.
 
+7. What is the relationship between customer rating and booking value
+
+![]()
 
 
 
