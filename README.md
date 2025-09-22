@@ -147,7 +147,21 @@ It can be observed that Wrong address, change of plans, Driver is not moving tow
 
 7. What is the relationship between customer rating and booking value
 
-![]()
+![](customer_rating_vers_booking_value.png)
+
+8. What are the toal bookings by each day of the week
+
+![](Booking_by_days_of_the_week)
+
+It can be observed that we have highest number of bookings on Monday which is slightly ahead of other days of the week
+
+9. What are the relationship between the numerical variable
+
+![](rel_btw_numerical_variables)
+
+10. Correlation checks
+
+![](correlation.png)
 
 
 
