@@ -139,6 +139,14 @@ As observed Uberxl has the least booking with less than 5,000 bookings which sho
 It can be observed that Avg CTAT is roughly stable from Avg VTAT 2.5 to 7.5 and began to rise steadily from 8.0 to 15.0
 It can also be observed that Avg CTAT drops and stay neutral when Avg VTAT is 15.0
 
+6. What can be observed
+
+![](RFC_by_customers.png)
+
+It can be observed that Wrong address, change of plans, Driver is not moving towards pickup location are the top reasons for cancellation by customers.
+
+
+
 
 
 
