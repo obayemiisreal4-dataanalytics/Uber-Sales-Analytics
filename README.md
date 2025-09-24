@@ -2,7 +2,7 @@
 This comprehensive analysis contains detailed ride-sharing data from Uber operations for the year 2024,providing rich insights into booking patterns, vehicle performance,
 revenue streams, cancellation behaviors, and customer satisfaction metrics. 
 
-The goal of this analysis is to uncover insights in the data and make valuable recommendations for the company. 
+The goal of this analysis is to uncover insights in the data and make valuable recommendations for the company.  
 
 ### Objectives of the analysis
 1. Data Importation
